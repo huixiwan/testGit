@@ -1,1 +1,7 @@
 1、在github上进行的操作不会映射到本地
+
+由此问题引申的问题：在github端新建了个readme.md，而本地没有，使得不能将本地的代码更新到github上。
+
+解决方法是用：
+git pull --rebase origin master
+执行上面代码后可以看到本地代码库中多了README.md文件。

@@ -28,3 +28,4 @@
 
 2、更新github上的
 	git push origin master
+	这时可能会有填写账号信息等。
