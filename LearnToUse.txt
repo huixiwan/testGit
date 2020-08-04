@@ -1,0 +1,30 @@
+一、上传项目到github上。
+
+前提：你有github账号，且本地装了git。
+
+1、本地仓库处理
+	在本地的项目目录下鼠标右键下点击git bash here，启动git。
+	git init	进行初始化，添加的.git文件夹，这应该就是本地仓库了
+	git add .	将本地的文件传到添加到暂存区
+	git commit -m "initial commit"	把代码上传到本地仓库
+	
+2、github上仓库处理
+	在github上新建repository
+
+3、关联本地与github，并上传代码
+	git remote add origin https://github.com/Yanyf765/hr_sys.git（上步骤复制的地址）	此步是进行关联
+	git push origin master	将本地仓库传至github上。
+
+
+二、更新项目
+
+0、查看状态
+	git status
+
+1、更新本地
+	git add *
+	git commit -m "更新说明"
+	git pull	拉取当前分支最新代码
+
+2、更新github上的
+	git push origin master
