@@ -5,3 +5,6 @@
 解决方法是用：
 git pull --rebase origin master
 执行上面代码后可以看到本地代码库中多了README.md文件。
+
+
+2、过程中弹出填写的Username是邮箱账号
